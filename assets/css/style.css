@@ -32,6 +32,8 @@ footer{
     height: 50px;
     text-align: center;
     padding: 15px;
+    margin-top: 20px;
+    border-top: 5px solid #4aaaa5;
 }
 
 
@@ -53,10 +55,8 @@ footer{
     top: -20px;
     right: 20px;
     float: left;
-
-    
 }
-/*style of index.html*/
+
 #main{
     background: #ffffff;
     border-color: #dddddd;
@@ -76,6 +76,7 @@ body{
     
 }
 
+/*style of index.html*/
 #profile{
     width: 100px;
     height: 100px;
@@ -91,4 +92,24 @@ body{
 
 }
 
+/*style of portfolio.html*/
 
+#portfoliotable{
+    table-layout: auto;
+    width: 750px;  
+    margin-left: 20px;
+    
+}
+
+.box{
+    color: white;
+    background: #4aaaa5;
+    font-size: 20px;
+    padding: 10px;
+    height: 40px;
+    position: relative;
+    bottom: 50px;
+    float: left;
+    width: 300px;
+    text-align: center; 
+}
