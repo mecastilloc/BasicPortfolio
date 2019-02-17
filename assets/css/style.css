@@ -113,3 +113,73 @@ body{
     width: 300px;
     text-align: center; 
 }
+
+/*style of contact.html*/
+input:not([type="submit"]), textarea{
+    outline:solid;
+    display:block;
+    width:380px;
+    padding:4px 8px;
+    color:#cccccc;
+    font-size:14px;
+    /*border-radius
+    -webkit-border-radius:2px;
+       -moz-border-radius:2px;
+            border-radius:2px;
+    transition
+    -webkit-transition:background 0.2s linear,
+                       box-shadow 0.6s linear;
+       -moz-transition:background 0.2s linear,
+                       box-shadow 0.6s linear;
+         -o-transition:background 0.2s linear,
+                       box-shadow 0.6s linear;
+            transition:background 0.2s linear,
+                       box-shadow 0.6s linear;*/
+    }
+
+        input:not([type="submit"]):active, 
+        textarea:active,
+        input:not([type="submit"]):focus, 
+        textarea:focus{
+        background:#4aaaa5;
+        border:dashed 1px red;
+    /*box-shadow
+    -webkit-box-shadow:2px 2px 7px greenyellow inset;
+       -moz-box-shadow:2px 2px 7px greenyellow inset;
+            box-shadow:2px 2px 7px greenyellow inset;*/
+    }
+
+    input:not([type="submit"]){
+    height: 20px;
+    }
+    
+    /* placeholder */
+    ::-webkit-input-placeholder  { 
+    /*color: #777777; */
+    font-style:italic;
+    }
+
+    input:-moz-placeholder,
+    textarea:-moz-placeholder{ 
+    /*color:#BABABA;*/
+    font-style:italic;
+    } 
+    textarea{
+    min-height:200px;
+    resize:vertical
+    }
+
+
+    /** Styling the send button **/
+    input[type=submit]{
+    margin-left:20px;
+    margin-bottom: 20px;
+    cursor:pointer;
+    background:none;
+    border:none;
+    color: white;
+    background: #4aaaa5;
+    font-size:20px;
+    padding:10px 15px;
+   }
+    
