@@ -4,7 +4,9 @@
 
 
 html{
-    background: black;
+    background-image: url("../images/bg2x.png");
+    background-repeat: repeat;
+    background-color: black;
 }
 
 
