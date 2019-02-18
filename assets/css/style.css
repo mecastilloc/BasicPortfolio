@@ -7,6 +7,8 @@ html{
     background-image: url("../images/bg2x.png");
     background-repeat: repeat;
     background-color: black;
+    /*stiky footer*/
+    height: 98%;
 }
 
 
@@ -14,8 +16,8 @@ html{
 header{
     background: #ffffff;
     border-color: #cccccc;
-   
-    
+    height: 58px;
+    margin-bottom: 20px;
 }
 
 #headercont{
@@ -36,6 +38,8 @@ footer{
     padding: 15px;
     margin-top: 20px;
     border-top: 5px solid #4aaaa5;
+ /*sticky footer*/
+    flex-shrink: 0;
 }
 
 
@@ -72,6 +76,10 @@ body{
     
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 5px;
+    /*sticky footer*/
+    height: 98%;
+    display: flex;
+    flex-direction: column;
 }
 #h{
     color: #4aaaa5;
@@ -91,6 +99,8 @@ body{
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+    /*sticky footer*/
+    flex: 1 0 auto;
 
 }
 
@@ -102,7 +112,9 @@ body{
     margin-left: 20px;
     
 }
-
+#contentportfolio{
+    flex: 1 0 auto;
+}
 .box{
     color: white;
     background: #4aaaa5;
