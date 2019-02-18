@@ -28,6 +28,8 @@ header{
     margin: auto;
     /*background: pink;*/
     text-align: right;
+    background: #ffffff;
+    border-color: #cccccc;
 }
 
 footer{
@@ -37,9 +39,10 @@ footer{
     text-align: center;
     padding: 15px;
     margin-top: 20px;
-    border-top: 5px solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
  /*sticky footer*/
     flex-shrink: 0;
+    /*width:1280px;*/
 }
 
 
