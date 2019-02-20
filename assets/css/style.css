@@ -25,6 +25,7 @@ html{
     background-color: black;
     /*stiky footer*/
     height: 98%;
+    
 }
 
 
@@ -91,7 +92,7 @@ footer{
     background: #ffffff;
     border-color: #dddddd;
     width: 100%;
-    min-width: 960px;
+   
     max-width: 960px;
     display: block;
     margin: auto;
@@ -132,14 +133,13 @@ body{
 
 /*style of portfolio.html*/
 
-.portfoliohefoo{
-    min-width: 960px;
-}
+
 
 #portfoliotable{
     table-layout: auto;
-    width: 100%
-    max-width: 750px;  
+    width: 100%;
+    max-width: 960px;
+    min-width: 750px;
     margin-left: 20px;
     
 }
