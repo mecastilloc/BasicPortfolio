@@ -2,22 +2,23 @@
     box-sizing: border-box;
 }
 /*settings all links' hover*/
-a:link {
-    color: blue;
-  }
+/* a:link {
+    color: gray;
+  } */
   
-  a:visited {
+  /* a:visited {
   color: gray;
-  }
+  } */
   
   a:hover {
-    color: orangered;
-    background: black;
+    color: #4aaaa5;
+    background: yellow;
   }
   
-  a:active {
+  /* a:active {
     color: #4aaaa5;
-  }
+  } */
+/*ends settings all links' hover*/
 
 html{
     background-image: url("../../assets/images/bg.png");
@@ -25,10 +26,7 @@ html{
     background-color: black;
     /*stiky footer*/
     height: 98%;
-    
 }
-
-
 
 header{
     background: #ffffff;
@@ -45,9 +43,7 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
     margin: auto;
-    /*background: pink;*/
     text-align: right;
-    
 }
 
 footer{
@@ -62,20 +58,19 @@ footer{
     flex-shrink: 0;
     width:100%;
 }
-
-
-
 .navlink{
     text-decoration: none;
     color: #777777;
-    
-   
-}
-/*.navlink:hover{
-    color: yellow;
-
+} 
+/*makes current page link diferent, has to be a class in every link corresponding the page showing
+.current:link {
+    color: #4aaaa5; 
 }*/
 
+.current {
+    color: white; 
+    background-color: #4aaaa5;
+}
 #boxname {
     color: white;
     background: #4aaaa5;
